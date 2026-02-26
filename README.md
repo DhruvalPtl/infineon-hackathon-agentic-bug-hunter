@@ -192,6 +192,13 @@ To run fully offline with [LM Studio](https://lmstudio.ai/):
 
 Built with ❤️ at the Infineon Technologies Hackathon, Nirma University.
 
+| | GitHub |
+|---|---|
+| Dhruval Patel | [@DhruvalPtl](https://github.com/DhruvalPtl) |
+| KN Bhatt | [@knbhatt](https://github.com/knbhatt) |
+| Team Member 3 | — |
+| Team Member 4 | — |
+
 ---
 
 ## 🙏 Credits
