@@ -34,7 +34,11 @@ ENV/
 # Output that can be regenerated
 output.csv
 
-# Embedding model weights and cache (download separately via HuggingFace)
+# Embedding model weights and cache (provided by Infineon / download via HuggingFace)
+# Binary model files are NOT committed - obtain them separately
+*.bin
+*.safetensors
+*.onnx
 server/embedding_model/onnx/
 server/embedding_model/.cache/
 

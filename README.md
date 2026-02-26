@@ -67,18 +67,24 @@ Input C++ Code (samples.csv)
 ## 📂 Project Structure
 
 ```
-├── bug_hunter.py        # Main multi-agent pipeline
-├── app.py               # Streamlit dashboard
-├── demo2.py             # Quick demo / proof-of-concept agent
-├── samples.csv          # Input: buggy C++ code snippets
-├── output.csv           # Output: bug reports (auto-generated)
+├── bug_hunter.py        # ✍️  Our work – main multi-agent pipeline
+├── app.py               # ✍️  Our work – Streamlit dashboard
+├── demo2.py             # ✍️  Our work – quick demo / proof-of-concept agent
+├── samples.csv          # 🔷 Provided by Infineon – buggy C++ test cases
+├── output.csv           # Auto-generated output (not committed)
 ├── .env.example         # Environment variables template
 ├── requirements.txt
-└── server/
+└── server/              # 🔷 Provided by Infineon
     ├── mcp_server.py        # FastMCP server exposing `search_documents`
-    ├── embedding_model/     # Local BAAI/bge-base-en-v1.5 weights
-    └── storage/             # LlamaIndex persisted vector store
+    ├── embedding_model/     # BAAI/bge-base-en-v1.5 config files
+    │                        # (.bin / .safetensors / .onnx excluded from repo)
+    └── storage/             # Pre-built LlamaIndex vector store of SmartRDI docs
 ```
+
+> **🔷 Infineon-provided assets** – The `server/` directory (MCP server, pre-built vector store
+> of SmartRDI documentation, and embedding model config) along with `samples.csv` (buggy C++
+> test cases) were supplied by Infineon Technologies as part of the hackathon challenge kit.
+> Model binary weights (`.bin`, `.safetensors`, `.onnx`) are excluded from this repository.
 
 ---
 
@@ -185,3 +191,11 @@ To run fully offline with [LM Studio](https://lmstudio.ai/):
 ## 👥 Team
 
 Built with ❤️ at the Infineon Technologies Hackathon, Nirma University.
+
+---
+
+## 🙏 Credits
+
+- **Infineon Technologies** – for organising the hackathon, providing the SmartRDI documentation
+  vector store, the MCP server scaffold, and the test dataset (`samples.csv`)
+- **Nirma University** – for hosting the event
