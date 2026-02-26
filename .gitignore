@@ -34,8 +34,9 @@ ENV/
 # Output that can be regenerated
 output.csv
 
-# Embedding model weights (large binary files - download separately)
+# Embedding model weights and cache (download separately via HuggingFace)
 server/embedding_model/onnx/
+server/embedding_model/.cache/
 
 # OS
 Thumbs.db
