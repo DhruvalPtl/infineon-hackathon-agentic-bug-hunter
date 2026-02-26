@@ -1,8 +1,12 @@
+import os
 from pydantic_ai import Agent, RunContext, UsageLimits
 from pydantic_ai.models.huggingface import HuggingFaceModel
 from pydantic_ai.providers.huggingface import HuggingFaceProvider
 from loguru import logger
+from dotenv import load_dotenv
 import sys
+
+load_dotenv()
 
 
 
@@ -12,7 +16,7 @@ logger.info("Starting the application...")
 
 
 
-pro = HuggingFaceProvider(api_key="REDACTED_HF_KEY")
+pro = HuggingFaceProvider(api_key=os.environ["HF_API_KEY"])
 model = HuggingFaceModel("Qwen/Qwen2.5-7B-Instruct", provider=pro)
 
 # pro = HuggingFaceProvider()

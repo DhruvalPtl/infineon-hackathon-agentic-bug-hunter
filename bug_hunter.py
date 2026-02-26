@@ -5,7 +5,10 @@ from pydantic import BaseModel
 from pydantic_ai import Agent, RunContext
 from pydantic_ai.mcp import MCPServerSSE
 from loguru import logger
+from dotenv import load_dotenv
 import sys
+
+load_dotenv()
 
 
 USE_LOCAL_LLM = False 
@@ -19,7 +22,7 @@ if USE_LOCAL_LLM:
 else:
     from pydantic_ai.providers.huggingface import HuggingFaceProvider
     from pydantic_ai.models.huggingface import HuggingFaceModel
-    provider = HuggingFaceProvider(api_key="REDACTED_HF_KEY") 
+    provider = HuggingFaceProvider(api_key=os.environ["HF_API_KEY"]) 
     model = HuggingFaceModel("Qwen/Qwen2.5-7B-Instruct", provider=provider)
     logger.info("Initialized Cloud Environment")
 

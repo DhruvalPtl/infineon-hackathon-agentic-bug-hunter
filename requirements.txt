@@ -1,0 +1,21 @@
+# Core agent framework
+pydantic-ai[huggingface,mcp]
+pydantic
+
+# MCP server
+fastmcp
+
+# LlamaIndex for vector retrieval
+llama-index-core
+llama-index-embeddings-huggingface
+
+# Dashboard
+streamlit
+pandas
+
+# Utilities
+loguru
+python-dotenv
+
+# Optional: LM Studio local LLM support
+# openai
