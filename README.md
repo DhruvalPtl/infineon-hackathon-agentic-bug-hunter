@@ -196,7 +196,7 @@ Built with ❤️ at the Infineon Technologies Hackathon, Nirma University.
 |---|---|
 | Dhruval Patel | [@DhruvalPtl](https://github.com/DhruvalPtl) |
 | KN Bhatt | [@knbhatt](https://github.com/knbhatt) |
-| Team Member 3 | — |
+| Kinjal Rathod | [@kinjal-rathod-14] (https://github.com/kinjal-rathod-14)|
 | Team Member 4 | — |
 
 ---
