@@ -195,9 +195,9 @@ Built with ❤️ at the Infineon Technologies Hackathon, Nirma University.
 | | GitHub |
 |---|---|
 | Dhruval Patel | [@DhruvalPtl](https://github.com/DhruvalPtl) |
+| Shruti Patel | [@shrutipatel48](https://github.com/shrutipatel48) |
 | KN Bhatt | [@knbhatt](https://github.com/knbhatt) |
 | Kinjal Rathod | [@kinjal-rathod-14](https://github.com/kinjal-rathod-14) |
-| Shruti Patel | [@shrutipatel48](https://github.com/shrutipatel48) |
 ---
 
 ## 🙏 Credits
